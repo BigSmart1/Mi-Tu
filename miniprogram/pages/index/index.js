@@ -413,7 +413,7 @@ Page({
         wx.showModal({
           confirmColor: "#66a6ff",
           cancelColor: "#cccccc",
-          content: '你要试试 自定义拼图形状 吗？',
+          content: '你要试试 自定义拼图形状 吗？\r\n建议选择 保存1张 图哦~',
           success(res) {
             if (res.confirm) {
               wx.setStorage({
@@ -421,7 +421,7 @@ Page({
                 data: true,
               })
               wx.switchTab({
-                url: "/pages/help/help",
+                url: "/pages/mine/mine",
               })
             }
           }
@@ -468,7 +468,7 @@ Page({
     // 判断补充图片类型
     function selType(imgType) {
       // 补充已选图片
-      if (imgType == 3) {
+      if (imgType == 0) {
         addSelImg();
       } else {
         // 获取补充图片路径的数组

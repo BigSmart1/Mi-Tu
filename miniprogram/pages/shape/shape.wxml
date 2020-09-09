@@ -14,17 +14,17 @@
         <view class="weui-btn-area">
             <button class="btn btn1" hover-class="none"bindtap="openConfirm">
             <text class="icon1"></text>
-            <text class="text">可爱的人才能点~</text></button>
+            <text class="text">可爱的人才点</text></button>
             <button class="btn btn2" bindtap="tapOneDialogButton">
             <text class="icon2"></text>
-            <text class="text">？？？？？？</text></button>
+            <text class="text">今天想说的话</text></button>
         </view>
     </view>
     <l-dialog title="嗯QAQ" show="{{showOneButtonDialog1}}" bindbuttontap="tapDialogButton" buttons="{{buttons}}">
         <view>还真是个小可爱呢~</view>
     </l-dialog>
     <l-dialog title="米小文" show="{{showOneButtonDialog}}" bindbuttontap="tapDialogButton" buttons="{{oneButton}}">
-        <view>提前祝你教师节快乐！</view>
+        <view>祝你教师节快乐哦！</view>
     </l-dialog>
   </view>
 </view>

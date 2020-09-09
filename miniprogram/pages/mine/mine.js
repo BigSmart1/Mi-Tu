@@ -4,7 +4,7 @@ Page({
   data: {
     save: ['保存9张', '保存1张'],
     saveIndex: 0,
-    add: ['1', '2', '3', '已选图片'],
+    add: ['已选图片'],
     // add: ['已选图片'],
     addIndex: 0,
     // tailor: ["自动裁剪", "手动裁剪"],
@@ -16,9 +16,11 @@ Page({
   },
   // 改变保存张数
   saveChange: function (e) {
+    
     this.setData({
       saveIndex: e.detail.value
     })
+    
     let num = e.detail.value == 0 ? 9 : 1;
     wx.setStorage({
       key: 'saveNum',
