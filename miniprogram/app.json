@@ -2,12 +2,13 @@
   "pages": [
     "pages/index/index",
     "pages/mine/mine",
-    "pages/shape/shape"
+    "pages/shape/shape",
+    "pages/diyshape/diyshape"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarBackgroundColor": "#eecbaf",
     "navigationBarTitleText": "Mi-Tu",
     "navigationBarTextStyle": "black"
   },
@@ -33,13 +34,11 @@
         "iconPath": "./images/mine.png",
         "selectedIconPath": "./images/mine1.png",
         "pagePath": "pages/mine/mine",
-        "text": "我的"
+        "text": "设置"
       }
     ]
   },
-  "usingComponents": {
-    "l-icon": "/miniprogram_npm/lin-ui/icon/index"
-  },
+ 
   "sitemapLocation": "sitemap.json",
   "style": "v2"
 }
