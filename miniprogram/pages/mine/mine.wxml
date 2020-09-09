@@ -15,7 +15,7 @@
     </view>
   </view>
 
-  <!-- <view class="weui-cells__title">补充图片类型</view>
+  <view class="weui-cells__title">补充图片类型</view>
   <view class="weui-cells weui-cells_after-title">
     <view class="weui-cell weui-cell_input">
       <view class="weui-cell__hd">
@@ -27,7 +27,7 @@
         </picker>
       </view>
     </view>
-  </view> -->
+  </view>
 
 
   <view class="weui-cells__title">单选图片裁剪模式</view>
