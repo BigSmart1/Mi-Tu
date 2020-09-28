@@ -14,17 +14,17 @@
         <view class="weui-btn-area">
             <button class="btn btn1" hover-class="none"bindtap="openConfirm">
             <text class="icon1"></text>
-            <text class="text">可爱的人才点</text></button>
+            <text class="text">雯雯你还会再点进来看看嘛？</text></button>
             <button class="btn btn2" bindtap="tapOneDialogButton">
             <text class="icon2"></text>
-            <text class="text">今天想说的话</text></button>
+            <text class="text">为什么我总是不主动找你呢？</text></button>
         </view>
     </view>
-    <l-dialog title="嗯QAQ" show="{{showOneButtonDialog1}}" bindbuttontap="tapDialogButton" buttons="{{buttons}}">
-        <view>还真是个小可爱呢~</view>
+    <l-dialog title="你知道吗？" show="{{showOneButtonDialog1}}" bindbuttontap="tapDialogButton" buttons="{{buttons}}">
+        <view>我真的每天都在想你呢！</view>
     </l-dialog>
-    <l-dialog title="米小文" show="{{showOneButtonDialog}}" bindbuttontap="tapDialogButton" buttons="{{oneButton}}">
-        <view>祝你教师节快乐哦！</view>
+    <l-dialog title="我真的不够厚脸皮呀" show="{{showOneButtonDialog}}" bindbuttontap="tapDialogButton" buttons="{{oneButton}}">
+        <view>我真的笨、真的不会聊天呢~自己都嫌弃自己，要是给我脸上贴一块猪皮多好~活该自己找不到女朋友</view>
     </l-dialog>
   </view>
 </view>
