@@ -4,27 +4,26 @@
 <image class='background' src="../../images/mi.jpg" style="opacity:{{0.5}}"  mode="aspectFill"></image>
 <!--页面其它部分-->
 
-  <!-- <view class="btn-area"> -->
-    <!-- <navigator class="btn btn1" hover-class="none" url="../modifyPhoto/modify"><text class="icon1"></text><text class="text">是小可爱哦~</text></navigator>
-    <navigator class="btn btn2" hover-class="none" url="../spliceMenu/spliceMenu"><text class="icon2"></text><text class="text">我真机智！</text></navigator> 
-    
-    -->
+
   <view class="btn-area">
       <view class="page__bd">
         <view class="weui-btn-area">
             <button class="btn btn1" hover-class="none"bindtap="openConfirm">
             <text class="icon1"></text>
-            <text class="text">可爱的人才点</text></button>
+            <text class="text">10月27日，我们认识的第131天</text></button>
             <button class="btn btn2" bindtap="tapOneDialogButton">
             <text class="icon2"></text>
-            <text class="text">今天想说的话</text></button>
+            <text class="text">坏姐姐，你说我该怎么做？</text></button>
         </view>
     </view>
-    <l-dialog title="嗯QAQ" show="{{showOneButtonDialog1}}" bindbuttontap="tapDialogButton" buttons="{{buttons}}">
-        <view>还真是个小可爱呢~</view>
+    <l-dialog title="命中注定的喜欢你~" show="{{showOneButtonDialog1}}" bindbuttontap="tapDialogButton" buttons="{{buttons}}">
+        <view>离我们最后一次见面已经过去20天，也想和你再见面的第20天！真的每天都在想你，想和你聊天，想知道你在干什么，想知道你是不是开心...想你的一切~</view>
     </l-dialog>
-    <l-dialog title="米小文" show="{{showOneButtonDialog}}" bindbuttontap="tapDialogButton" buttons="{{oneButton}}">
-        <view>祝你教师节快乐哦！</view>
+    <l-dialog title="迷茫、患得患失" show="{{showOneButtonDialog}}" bindbuttontap="tapDialogButton" buttons="{{oneButton}}">
+        <view>姐姐，你说我们现在是什么关系？虽然现在我们还保持着每天聊会儿天，但我也能感觉到你累了，我们的话题越来越少，聊天内容越来越窄，
+        动不动的就尬住。我知道，是我不会聊天，每次都抓不住你的重点，你发消息来我都不知道回你什么好，但我真的想一直和你聊下去，可情商不允许呀，姐姐~
+        你说我该怎么做？我想每天都主动找你，但又怕打扰你，想和你说我想你了，但又怕你不再理我，想知道你在干嘛，但又怕你烦，总是在患得患失中挣扎。我不知道我们未来能不能走到一起，但我知道你的出现已经在我生命中烙下的深深的印记！就这样吧，不善言辞的我也说不出什么多么浪漫的话，就简单点：我喜欢你，超级超级喜欢！姐姐，如果你看到的话能不能教教我怎么和你聊天呀~哈哈哈哈哈哈！
+        对了对了，欢迎随时骚扰我呀，你发什么我都会很开心~</view>
     </l-dialog>
   </view>
 </view>
